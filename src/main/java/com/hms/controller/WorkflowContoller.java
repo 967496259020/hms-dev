@@ -28,4 +28,11 @@ public class WorkflowContoller {
 		
 	}
 
+@GetMapping(value = "/test" , produces = MediaType.APPLICATION_JSON_VALUE , consumes = MediaType.APPLICATION_JSON_VALUE)
+	public String getTest() {
+		
+	 return "String";
+		
+	}
+
 }
